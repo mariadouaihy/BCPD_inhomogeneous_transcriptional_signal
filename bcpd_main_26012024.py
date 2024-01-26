@@ -12,27 +12,23 @@ import sys
 sys.path.append('./utilities/')
 from read_rawDataFiles import readDataInFile
 from movies_combining import movies_combining_rawData
-#sys.path.append('/home/mdouaihy/deconv_python/')
-#sys.path.append('/home/mdouaihy/snail_crispr/code/')
-#sys.path.append('/home/mdouaihy/bcpd_test/code/')
-#sys.path.append('/home/mdouaihy/DeconvolutionPython+Notebook/utilities/')
 import numpy as np
 import os
 import matplotlib.pyplot as plt
 import math
 import seaborn as sns
 from MLE_gamma import MLE_gamma
-from gregory_GaussianUnknownMeanAndVariance import GaussianUnknownMeanUnknownVariance
+from GaussianUnknownMeanAndVariance import GaussianUnknownMeanUnknownVariance
 from bcpd_attribute import bocd
 from retriving_time_points import retriving_time_100723
 import pandas as pd
 
 plt.close('all')
 
-inputpath = '/home/mdouaihy/MLL_data/sna_crispr_paper/code/Data/'
+inputpath = './Data/'
 data_type = '' # if we wan t to add a specific name to the output folder otherwise it's generate automatically
 extension = '.xlsx' # extension type of the data (either xlsx or xls)
-outputpath =  '/home/mdouaihy/MLL_data/sna_crispr_paper/code/Results/'
+outputpath =  './Results/'
     
 
 
