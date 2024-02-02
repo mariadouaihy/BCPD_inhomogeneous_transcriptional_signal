@@ -1,4 +1,7 @@
 # BCPD_inhomogeneous_transcriptional_signal
+Code associated with the article "Dissecting the dynamics of coordinated active transcriptional repression in a multicellular organism"
+
+
 The BCPD method introduced in  Adams & MacKay 2007: is used to determine the onset of repression of a transcriptional signal imaged using the MS2-MCP system. The repression time for each singal independently is determed by the probability of having a change point denoting a sudden change in the parameters that generate the data
 
 The code is organised as following: 
